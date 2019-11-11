@@ -1,0 +1,49 @@
+.Button {
+    width: 25%;
+    height: 11vh;
+    font-size: 20px;
+    outline: none;
+    background-color: white;
+    border: 1px solid transparent;
+    transition: all 0.2s;
+    background-color: #6f11c7;
+    
+
+
+}
+
+.Button:hover {
+    background-color: #370863;
+    color: #a771da
+
+}
+
+.Button:active{
+    transform: scale(.95)
+}
+
+.Button-primary {
+    background-color:#DDFFF7;
+    border: 2px solid darkturquoise;
+
+
+}
+
+.Button-operator{
+    background-color:#93E1D8;
+    border: 2px solid rgb(0, 115, 209);
+
+
+}
+
+.Button-number {
+    background-color: #FFA69E;
+    border: 2px solid rgb(209, 129, 0);
+}
+
+.Button-equal {
+    width: 50%;
+    background-color: rgb(224, 110, 146);
+    font-size: 45px;
+    border: 2px solid rgb(209, 0, 98);
+}

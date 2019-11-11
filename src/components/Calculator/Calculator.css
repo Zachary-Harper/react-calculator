@@ -1,0 +1,21 @@
+.Calculator {
+    background-color: white;
+    height: 80vh;
+    width: 25%;
+    -webkit-box-shadow: 0px 0px 35px 19px rgb(95, 105, 199);
+    -moz-box-shadow: 0px 0px 35px 19px rgb(95, 105, 199);
+    box-shadow: 0px 0px 35px 19px rgb(95, 105, 199);
+    
+}
+
+@media screen and (max-width: 1200px) {
+    .Calculator {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .Calculator {
+        width: 80%;
+    }
+}
